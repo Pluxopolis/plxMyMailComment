@@ -1,0 +1,13 @@
+## Version 1.2.1 (13/03/2013) ##
++ Ajout du paramètre "Destinataire du mail"
++ Ajout du paramètre "Envoyer un email à l'auteur de l'article" (oui/non)
+BUG prise en compte des magic-quotes
+
+## Version 1.2 (20/11/2012) ##
+[+] Ecran de configuration du plugin: ajout paramètre "Adresse email utilisée pour envoyer les mails" (contribution petitchevalroux)
+
+## Version 1.1 (20/10/2011) ##
+[+] Accès à l'administration du commentaire (contribution de Deevad)
+[+] Ajout de destinaires en copie et copie cachée du mail
+[+] Message d'alerte si fonction email non disponible
+BUG Prise en compte des conditions antispam (contribution de Deevad)
