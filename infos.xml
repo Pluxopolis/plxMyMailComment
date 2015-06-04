@@ -2,8 +2,8 @@
 <document>
 	<title><![CDATA[MyMailComment]]></title>
 	<author><![CDATA[Stéphane F. and contributors]]></author>
-	<version>1.2.1</version>
-	<date>13/03/2013</date>
+	<version>1.2.2</version>
+	<date>04/06/2015</date>
 	<site>http://pluxopolis.net</site>
 	<description><![CDATA[Envoi un mail à l'auteur d'un article quand un nouveau commentaire est posté]]></description>
 	<requirements></requirements>

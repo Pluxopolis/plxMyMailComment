@@ -1,3 +1,6 @@
+## Version 1.2.2 (04/06/2015) ##
+[+] Compatibilité PluXml 5.4
+
 ## Version 1.2.1 (13/03/2013) ##
 + Ajout du paramètre "Destinataire du mail"
 + Ajout du paramètre "Envoyer un email à l'auteur de l'article" (oui/non)

@@ -20,7 +20,6 @@ $bcc = $plxPlugin->getParam('bcc') == '' ? '' : $plxPlugin->getParam('bcc');
 $author_email = $plxPlugin->getParam('author_email') == '' ? 0 : $plxPlugin->getParam('author_email');
 ?>
 
-<h2><?php echo $plxPlugin->getInfo('title') ?></h2>
 <?php
 if (function_exists('mail')) {
 	echo '<p style="color:green"><strong>'.$plxPlugin->getLang('L_MAIL_AVAILABLE').'</strong></p>';
@@ -43,7 +42,7 @@ if (function_exists('mail')) {
 		<?php plxUtils::printSelect('author_email',array('1'=>L_YES,'0'=>L_NO), $author_email);?>
 		<br /><br />
 		<?php $plxPlugin->lang('L_COMMAS') ?>
-		<p>
+		<p class="in-action-bar">
 			<?php echo plxToken::getTokenPostMethod() ?>
 			<input type="submit" name="submit" value="<?php $plxPlugin->lang('L_SAVE') ?>" />
 		</p>
